@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Checklist</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link href="https://fonts.cdnfonts.com/css/azonix" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="start-screen">
+        <h1>Welcome to the Future</h1>
+        <button id="start-btn">Start</button>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <header>
+            <h1>Futuristic Checklist</h1>
+            <button id="add-checklist-btn">
+                <img src="assets/icons/add-icon-white.png" alt="Add Icon" class="icon">
+                Add New Checklist
+            </button>
+        </header>
+
+        <main>
+            <section id="checklist-container">
+                <!-- Checklist items will be dynamically added here -->
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Futuristic Checklist</p>
+        </footer>
+    </div>
+
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/checklistManager.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
